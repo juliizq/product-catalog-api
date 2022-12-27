@@ -7,7 +7,7 @@ type Props = {
 
 const ProductCard: React.FC<Props> = ({ product }) => {
   return (
-    <Card borderRadius="lg" backgroundColor={"white"} h={"100%"}>
+    <Card borderRadius="lg" backgroundColor={"white"} h={''}>
       <CardBody>
         <Image
           src={product.image}
